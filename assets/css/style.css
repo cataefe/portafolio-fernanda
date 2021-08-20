@@ -1,11 +1,15 @@
 body {
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Raleway', sans-serif;  
     font-size: 0.75rem;
     color: gray;
     }
 
 .navbar{
     background-color: #f9ed8c;
+}
+
+.logo img{
+    width: 40px;
 }
 
 
