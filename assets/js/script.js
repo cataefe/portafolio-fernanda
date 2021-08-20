@@ -1,15 +1,15 @@
 $(function(){
-    $("a").click(function(event){
-    if(this.hasg !==""){
-    event.preventDefault(); 
-    
-    var gato = this.hash;
+    $("a").on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
 
-    $("html, body").animate({
-        scrollTop: $(gato) .offset().top        
-        }, 800, function(){
-        window.location.hash = gato;
-    });    
-    }
+            var hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+                window.location.hash = hash;
+            });
+        }
     });
 });

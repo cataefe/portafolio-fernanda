@@ -1,13 +1,10 @@
 body {
     font-family: 'Raleway', sans-serif;  
-    font-size: 0.75rem;
+    font-size: 1rem;
     color: gray;
     }
 
 
-.logo img{
-    width: 200px;
-}
 
 
 .about{
@@ -17,7 +14,7 @@ body {
 
 .icons i{
     color: white;
-    padding-top: 0.75rem;
+    padding-top: 1rem;
 }
 
 .icons h4{
@@ -29,8 +26,8 @@ body {
 }
 
 #circulo{
-    height:50px;
-    width:50px;
+    height:70px;
+    width:70px;
     background: #f7bec7;
     -moz-border-radius:50px;
     -webkit-border-radius:50px;
@@ -45,4 +42,8 @@ body {
 
 footer{
     padding: 5rem;
+}
+
+.icons a{
+    text-decoration: none;
 }
