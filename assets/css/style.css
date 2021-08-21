@@ -5,7 +5,9 @@ body {
     }
 
 
-
+.logo img{
+    width: 250px;
+}
 
 .about{
     background-color: #f8f8f6;
